@@ -11,19 +11,19 @@
         </el-form-item>
 
         <div v-show="userType=='种植户'">
-          <el-form-item label="农产品名称:" style="width: 300px" label-width="120px">
+          <el-form-item label="产品名称:" style="width: 300px" label-width="120px">
             <el-input v-model="tracedata.Farmer_input.Fa_fruitName" />
           </el-form-item>
-          <el-form-item label="产地:" style="width: 300px" label-width="120px">
+          <el-form-item label="生产地:" style="width: 300px" label-width="120px">
             <el-input v-model="tracedata.Farmer_input.Fa_origin" />
           </el-form-item>
-          <el-form-item label="种植时间:" style="width: 300px" label-width="120px">
+          <el-form-item label="生产时间:" style="width: 300px" label-width="120px">
             <el-input v-model="tracedata.Farmer_input.Fa_plantTime" />
           </el-form-item>
-          <el-form-item label="采摘时间:" style="width: 300px" label-width="120px">
+          <el-form-item label="存储时间:" style="width: 300px" label-width="120px">
             <el-input v-model="tracedata.Farmer_input.Fa_pickingTime" />
           </el-form-item>
-          <el-form-item label="种植户名称:" style="width: 300px" label-width="120px">
+          <el-form-item label="生产商名称:" style="width: 300px" label-width="120px">
             <el-input v-model="tracedata.Farmer_input.Fa_farmerName" />
           </el-form-item>
         </div>

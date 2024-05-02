@@ -3,7 +3,7 @@
     <el-form ref="loginForm" :model="loginForm" :rules="loginRules" class="login-form" auto-complete="on" label-position="left">
 
       <div class="title-container">
-        <h3 class="title">基于区块链的农产品溯源系统</h3>
+        <h3 class="title">基于区块链的仓库物流管理系统</h3>
       </div>
       <div v-show="isLoginPage">
         <el-form-item prop="username">
@@ -136,16 +136,16 @@ export default {
       },
       options: [{
         value: '种植户',
-        label: '种植户'
+        label: '生产者'
       }, {
         value: '工厂',
         label: '工厂'
       }, {
         value: '运输司机',
-        label: '运输司机'
+        label: '运输商'
       }, {
         value: '商店',
-        label: '商店'
+        label: '销售商'
       }, {
         value: '消费者',
         label: '消费者'
