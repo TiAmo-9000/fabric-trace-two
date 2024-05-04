@@ -1,4 +1,3 @@
-echo "===启动网络前先清理旧的区块链网络==="
 echo "===========执行stop.sh脚本=========="
 # 关闭区块链浏览器
 docker compose -f explorer/docker-compose.yaml down -v > /dev/null 2>&1
