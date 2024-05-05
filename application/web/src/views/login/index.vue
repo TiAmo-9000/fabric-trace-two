@@ -135,7 +135,7 @@ export default {
         userType: ''
       },
       options: [{
-        value: '生产者',
+        value: '种植户',
         label: '生产者'
       }, {
         value: '工厂',
