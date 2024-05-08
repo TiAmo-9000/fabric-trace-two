@@ -32,6 +32,9 @@
             <el-form-item label="区块链交易时间：">
               <span>{{ props.row.farmer_input.fa_timestamp }}</span>
             </el-form-item>
+            <el-form-item label="区块链哈希验证：">
+              <span>{{ props.row.farmer_input.fa_timestamp }}</span>
+            </el-form-item>
             <div><span class="trace-text" style="color: #409EFF;">工厂信息</span></div>
             <el-form-item label="产品名称：">
               <span>{{ props.row.factory_input.fac_productName }}</span>
@@ -53,6 +56,9 @@
             </el-form-item>
             <el-form-item label="区块链交易时间：">
               <span>{{ props.row.factory_input.fac_timestamp }}</span>
+            </el-form-item>
+            <el-form-item label="区块链哈希验证：">
+              <span>{{ props.row.farmer_input.fa_timestamp }}</span>
             </el-form-item>
             <div><span class="trace-text" style="color: #E6A23C;">物流轨迹信息</span></div>
             <el-form-item label="姓名：">
@@ -76,6 +82,9 @@
             <el-form-item label="区块链交易时间：">
               <span>{{ props.row.driver_input.dr_timestamp }}</span>
             </el-form-item>
+            <el-form-item label="区块链哈希验证：">
+              <span>{{ props.row.farmer_input.fa_timestamp }}</span>
+            </el-form-item>
             <div><span class="trace-text" style="color: #909399;">商店信息</span></div>
             <el-form-item label="入库时间：">
               <span>{{ props.row.shop_input.sh_storeTime }}</span>
@@ -97,6 +106,9 @@
             </el-form-item>
             <el-form-item label="区块链交易时间：">
               <span>{{ props.row.shop_input.sh_timestamp }}</span>
+            </el-form-item>
+            <el-form-item label="区块链哈希验证：">
+              <span>{{ props.row.farmer_input.fa_timestamp }}</span>
             </el-form-item>
           </el-form>
         </template>
