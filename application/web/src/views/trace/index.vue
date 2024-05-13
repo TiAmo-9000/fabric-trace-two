@@ -33,7 +33,9 @@
               <span>{{ props.row.farmer_input.fa_timestamp }}</span>
             </el-form-item>
             <el-form-item label="区块链哈希验证：">
-              <span>{{ props.row.farmer_input.fa_txid }}</span>
+              <div>
+              <a href="http://43.143.251.211:8080/?tab=transactions&transId=props.row.farmer_input.fa_txid">验证按钮</a>
+              </div>
             </el-form-item>
             <div><span class="trace-text" style="color: #409EFF;">工厂信息</span></div>
             <el-form-item label="产品名称：">
