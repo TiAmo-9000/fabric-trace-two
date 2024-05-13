@@ -1,4 +1,4 @@
-echo "===========执行stop.sh脚本=========="
+echo "===========执行stop脚本=========="
 # 关闭区块链浏览器
 docker compose -f explorer/docker-compose.yaml down -v > /dev/null 2>&1
 # 关闭区块链网络

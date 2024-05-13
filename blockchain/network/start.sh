@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "===========先执行stop脚本，在执行start脚本=========="
 ./stop.sh
 # 启动mysql容器
 docker run --name fabrictrace-mysql -p 3337:3306 -e MYSQL_ROOT_PASSWORD=fabrictrace -d mysql:8
