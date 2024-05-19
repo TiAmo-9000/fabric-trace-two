@@ -34,7 +34,7 @@
             </el-form-item>
             <el-form-item label="区块链哈希验证：">
               <div>
-              <a href="http://43.143.251.211:8080/?tab=transactions&transId=props.row.farmer_input.fa_txid">产品信息验证按钮</a>
+              <a href="http://43.143.251.211:8080/?tab=blocks">产品信息验证按钮</a>
               </div>
             </el-form-item>
             <div><span class="trace-text" style="color: #409EFF;">工厂信息</span></div>
@@ -61,7 +61,7 @@
             </el-form-item>
             <el-form-item label="区块链哈希验证：">
               <div>
-                <a href="http://43.143.251.211:8080/?tab=transactions&transId=props.row.factory_input.fa_txid">工厂信息验证按钮</a>
+                <a href="http://43.143.251.211:8080/?tab=blocks">工厂信息验证按钮</a>
               </div>
             </el-form-item>
             <div><span class="trace-text" style="color: #E6A23C;">物流轨迹信息</span></div>
@@ -88,7 +88,7 @@
             </el-form-item>
             <el-form-item label="区块链哈希验证：">
               <div>
-                <a href="http://43.143.251.211:8080/?tab=transactions&transId=props.row.driver_input.fa_txid">运输信息验证按钮</a>
+                <a href="http://43.143.251.211:8080/?tab=blocks">运输信息验证按钮</a>
               </div>
             </el-form-item>
             <div><span class="trace-text" style="color: #909399;">商店信息</span></div>
@@ -115,7 +115,7 @@
             </el-form-item>
             <el-form-item label="区块链哈希验证：">
               <div>
-                <a href="http://43.143.251.211:8080/?tab=transactions&transId=props.row.shop_input.fa_txid">销售信息验证按钮</a>
+                <a href="http://43.143.251.211:8080/?tab=blocks">销售信息验证按钮</a>
               </div>
             </el-form-item>
           </el-form>
